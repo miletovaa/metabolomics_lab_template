@@ -3,12 +3,6 @@
 
 FROM ubuntu:22.04
 
-# [Optional] Set the working directory inside the container
-WORKDIR /workspaces
-
-# [Optional] Copy project files into the container
-# COPY . /workspaces
-
 # [Optional] Install dependencies (currently left empty for manual setup)
 # RUN apt-get update && apt-get install -y python3 python3-pip
 

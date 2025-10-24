@@ -25,9 +25,10 @@ Following file layout is a default maximum setup *(meaning the majority of the d
     ├─ params/                     # experiment parameters
     │  └─ 001_default.yaml
     ├─ results/                    # default output directory
-    │  └─ [run]/                   # create new directory for each run
-    │     ├─ tables/
-    │     ├─ figures/
+    │  └─ [run]/                   # create new run_[parameters-yaml-id]_[date-time] for each run
+    │     ├─ docs/                 # .doc, .pdf, .txt, etc.
+    │     ├─ tables/               # .csv, .xlsx, etc.
+    │     ├─ figures/              # .png, .jpg, .svg, etc.
     │     └─ reports/
     ├─ scripts/                    # small runnable scripts (shell/py)
     │  ├─ script.py

@@ -2,41 +2,39 @@
   // Recommended extensions for this project.
   // VS Code will suggest installing these when the workspace is opened.
   "recommendations": [
-    // --- Core Python & Jupyter support ---
-    "ms-python.python",               // Python language support
-    "ms-toolsai.jupyter",             // Jupyter notebooks integration
-    "ms-toolsai.jupyter-renderers",   // Improved notebook output rendering
-    "ms-toolsai.jupyter-keymap",      // Better keyboard shortcuts for notebooks
-    "ms-python.vscode-pylance",       // Fast Python language server & IntelliSense
+    // --- Core Python support ---
+    "ms-python.python", // Python language support
+    
+    // --- Jupyter support ---
+    "ms-toolsai.jupyter", // Jupyter notebooks integration
+    "ms-toolsai.jupyter-renderers", // Enhanced rendering for Jupyter notebooks
 
     // --- Conda & environment management ---
-    "ms-python.anaconda-extension-pack", // Optional: GUI for Conda/Anaconda envs
-    "ms-vscode-remote.remote-containers", // For Dev Containers (devcontainer.json)
+    // ? "ms-python.anaconda-extension-pack", // Optional: GUI for Conda/Anaconda envs
+    
+    // --- Dev Containers (optional) ---
+    // "ms-vscode-remote.remote-containers", // For Dev Containers (devcontainer.json)
 
     // --- Linting, formatting & code style ---
-    "charliermarsh.ruff",             // Fast Python linter & formatter
-    "ms-python.black-formatter",      // Black formatter for Python code
-    "editorconfig.editorconfig",      // Enforces consistent code style
+    "aaron-bond.better-comments", // Enhanced comment display
+    // ? "charliermarsh.ruff", // Fast Python linter & formatter
+    // ? "ms-python.black-formatter", // Black formatter for Python code
+    // ? "editorconfig.editorconfig", // Enforces consistent code style
 
     // --- Git & collaboration ---
-    "eamodio.gitlens",                // Advanced Git integration (history, blame, etc.)
-    "github.vscode-pull-request-github", // Manage PRs and issues directly in VS Code
+    "eamodio.gitlens", // Advanced Git integration (history, blame, etc.)
 
-    // --- YAML & JSON editing ---
-    "redhat.vscode-yaml",             // YAML validation and schema support
-    "tamasfe.even-better-toml",       // TOML syntax highlighting and formatting
+    // --- YAML, JSON, CSV editing ---
+    "redhat.vscode-yaml", // YAML validation and schema support
 
     // --- Markdown & docs ---
-    "yzhang.markdown-all-in-one",     // Live preview, TOC, auto-format for Markdown
-    "bierner.markdown-mermaid",       // Mermaid diagram rendering in Markdown
+    "yzhang.markdown-all-in-one", // Live preview, TOC, auto-format for Markdown
 
     // --- Notebooks / Quarto (optional) ---
-    "quarto.quarto",                  // Support for Quarto documents and notebooks
+    // "quarto.quarto", // Support for Quarto documents and notebooks
 
-    // --- Quality of life & UI ---
-    "usernamehw.errorlens",           // Inline error highlighting
-    "visualstudioexptteam.vscodeintellicode", // AI-assisted code completions
-    "mhutchie.git-graph"              // Visual Git history graph
+    // --- Others ---
+    "PKief.material-icon-theme", // File icons for better visual identification
   ],
   "unwantedRecommendations": [
     // Add here any extensions that conflict with lab standards
