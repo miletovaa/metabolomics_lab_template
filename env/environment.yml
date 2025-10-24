@@ -1,0 +1,62 @@
+# ==========================================================
+# Conda environment template for lab projects
+# ==========================================================
+# This file defines the base environment used to run scripts,
+# notebooks, and pipelines in a reproducible way.
+# 
+# To create the environment:
+#   conda env create -f env/environment.yml
+# To update it later:
+#   conda env update -f env/environment.yml --prune
+# To activate it:
+#   conda activate lab-base
+# ==========================================================
+
+name: lab-base            # Change to a project-specific name if needed
+
+channels:
+  - conda-forge           # Community-maintained packages (recommended)
+  - bioconda              # For bioinformatics tools (optional)
+  - defaults              # Fallback channel
+
+dependencies:
+  # --- Core Python ---
+  - python=3.11           # Specify version to ensure reproducibility
+  - pip                   # Needed for installing packages from PyPI
+
+  # --- Essential libraries ---
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+
+  # --- Jupyter / interactive work ---
+  - ipykernel             # Enables Jupyter kernel for this env
+  - jupyterlab
+  - notebook
+
+  # --- Code quality & reproducibility ---
+  - black                 # Code formatter
+  - ruff                  # Linter and static analyzer
+  - pre-commit            # Git pre-commit hooks
+  - python-dotenv         # Load environment variables from .env
+  - pyyaml                # Read/write YAML config files
+
+  # --- (Optional) Common bioinformatics or data tools ---
+  # - biopython
+  # - samtools
+  # - bedtools
+
+  # --- Testing / CI (optional) ---
+  # - pytest
+
+  # --- Install extra PyPI-only packages here ---
+  - pip:
+      # Example: - flask
+      # Example: - nbstripout
+      # Add pip-only packages below this line
+
+# ==========================================================
+# End of environment.yml
+# ==========================================================
