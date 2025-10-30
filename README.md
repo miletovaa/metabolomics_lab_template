@@ -25,11 +25,11 @@ Following file layout is a default maximum setup *(meaning the majority of the d
     ├─ params/                     # experiment parameters
     │  └─ 001_default.yaml
     ├─ results/                    # default output directory
+    │  ├─ reports/                 # .md, .pdf, .html, etc.
     │  └─ [run]/                   # create new run_[parameters-yaml-id]_[date-time] for each run
     │     ├─ docs/                 # .doc, .pdf, .txt, etc.
     │     ├─ tables/               # .csv, .xlsx, etc.
-    │     ├─ figures/              # .png, .jpg, .svg, etc.
-    │     └─ reports/
+    │     └─ figures/              # .png, .jpg, .svg, etc.
     ├─ scripts/                    # small runnable scripts (shell/py)
     │  ├─ script.py
     │  └─ script.sh
@@ -39,11 +39,11 @@ Following file layout is a default maximum setup *(meaning the majority of the d
     │     ├─ __init__.py
     │     └─ main.py/              # entrypoint
     ├─ tests/
-    │  └─ test.py                     
+    │  └─ test.py
     ├─ workflows/                  # pipelines
     │  └─ snakemake/               # Snakefiles, rule-level envs
-    │  │  ├─ Snakefile
-    │  │  └─ envs/
+    │     ├─ Snakefile
+    │     └─ envs/
     ├─ .gitignore                  # editable template; files that are ignored by Git
     ├─ .gitattributes              # LFS patterns + notebook filters
     ├─ .env.example                # template for paths/keys/etc.

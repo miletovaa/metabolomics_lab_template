@@ -10,7 +10,8 @@
     "ms-toolsai.jupyter-renderers", // Enhanced rendering for Jupyter notebooks
 
     // --- Conda & environment management ---
-    // ? "ms-python.anaconda-extension-pack", // Optional: GUI for Conda/Anaconda envs
+    // "ms-python.anaconda-extension-pack", // Optional: GUI for Conda/Anaconda envs
+    "DJSaunders1997.conda-wingman",
     
     // --- Dev Containers (optional) ---
     // "ms-vscode-remote.remote-containers", // For Dev Containers (devcontainer.json)
@@ -25,10 +26,10 @@
     "eamodio.gitlens", // Advanced Git integration (history, blame, etc.)
 
     // --- YAML, JSON, CSV editing ---
-    "redhat.vscode-yaml", // YAML validation and schema support
+    // "redhat.vscode-yaml", // YAML validation and schema support
 
     // --- Markdown & docs ---
-    "yzhang.markdown-all-in-one", // Live preview, TOC, auto-format for Markdown
+    // "yzhang.markdown-all-in-one", // Live preview, TOC, auto-format for Markdown
 
     // --- Notebooks / Quarto (optional) ---
     // "quarto.quarto", // Support for Quarto documents and notebooks
