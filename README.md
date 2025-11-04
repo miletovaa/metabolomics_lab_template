@@ -23,7 +23,7 @@ Following file layout is a default maximum setup *(meaning the majority of the d
     │  └─ errors.log
     ├─ notebooks/                  # Jupiter/Quarto/etc.
     ├─ params/                     # experiment parameters
-    │  └─ 001_default.yaml
+    │  └─ 000_default.yaml
     ├─ results/                    # default output directory
     │  ├─ reports/                 # .md, .pdf, .html, etc.
     │  └─ [run]/                   # create new run_[parameters-yaml-id]_[date-time] for each run
