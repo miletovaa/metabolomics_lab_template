@@ -26,13 +26,13 @@
     "eamodio.gitlens", // Advanced Git integration (history, blame, etc.)
 
     // --- YAML, JSON, CSV editing ---
-    // "redhat.vscode-yaml", // YAML validation and schema support
+    "redhat.vscode-yaml", // YAML validation and schema support
 
     // --- Markdown & docs ---
-    // "yzhang.markdown-all-in-one", // Live preview, TOC, auto-format for Markdown
+    "yzhang.markdown-all-in-one", // Live preview, TOC, auto-format for Markdown
 
     // --- Notebooks / Quarto (optional) ---
-    // "quarto.quarto", // Support for Quarto documents and notebooks
+    "quarto.quarto", // Support for Quarto documents and notebooks
 
     // --- Others ---
     "PKief.material-icon-theme", // File icons for better visual identification
